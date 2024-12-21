@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.typeBg {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  opacity: 0.5;
+  white-space: nowrap;
+  pointer-events: none; 
+}
+
+.img{
+  filter: drop-shadow(30px 10px 4px #000000b0);
+}
