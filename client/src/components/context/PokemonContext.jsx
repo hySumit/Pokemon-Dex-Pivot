@@ -1,4 +1,3 @@
-// PokemonContext.jsx
 import axios from "axios";
 import { createContext, useContext } from "react";
 import { useQuery } from "react-query";
